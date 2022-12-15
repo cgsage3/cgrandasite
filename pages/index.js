@@ -3,12 +3,16 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
+import dynamic from "next/dynamic";
+import Seo from "../components/Seo";
+import EdinaPreview from "../components/pages/preview";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Toolbox</title>
+        <Seo pageTitle="Preview" />
+        <EdinaPreview />        
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
