@@ -111,7 +111,7 @@ const EdinaPreview = () => {
 
       <div className="copyright">
         <p>
-          &copy; {new Date().getFullYear()} Edina by{" "}
+          &copy; {new Date().getFullYear()} Site by{" "}
           <a
             href="https://themeforest.net/user/ib-themes"
             target="_blank"
