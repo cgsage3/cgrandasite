@@ -3,8 +3,8 @@ import Link from "next/link";
 import ScrollspyNav from "react-scrollspy-nav";
 import sidebarContent from "../../data/sidebar";
 import Image from "next/image";
-import logo from "../../public/img/logo/dark.png";
-import logo2 from "../../public/img/logo/light.png";
+import logo from "../../public/img/logo/cg-logo.png";
+import logo2 from "../../public/img/logo/cg-logo-white.png";
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
