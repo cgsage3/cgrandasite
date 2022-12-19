@@ -2,13 +2,13 @@ import React from "react";
 import Social from "../Social";
 import ReactTyped from "react-typed";
 import Image from "next/image";
-import shapeImage from "../../public/img/hero/1.jpg";
-import heroImage from "../../public/img/hero/2.jpg";
+import shapeImage from "../../public/img/hero/cg_1.jpg";
+import heroImage from "../../public/img/hero/cg_1.jpg";
 
 const heroContent = {
   shapeImage: shapeImage,
   heroImage: heroImage,
-  name: "Rokers Nelson",
+  name: "Cesar Granda",
   description: `I'm a Freelancer Front-end React Developer based In USA, over 6 years of
   professional experience.`,
 };
@@ -28,7 +28,7 @@ const Hero = () => {
             data-aos-delay="100"
             className="hello"
           >
-            Hello, I&apos;m {heroContent.name}
+            Welcome to my resume site
           </h5>
           <h1
             className="name"

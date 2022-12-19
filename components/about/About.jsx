@@ -27,7 +27,7 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, Im <span>Rokers Nelson</span>
+                Hi, Im <span>Cesar Granda</span>
               </h3>
               <p>
                 Im a Freelancer Front-end Developer with over 6 years of
@@ -67,7 +67,7 @@ const About = () => {
               <div
                 className="main"
                 style={{
-                  backgroundImage: "url(img/about/2.jpg)",
+                  backgroundImage: "url(img/about/cg_rect.jpg)",
                 }}
                 data-aos="fade-left"
                 data-aos-duration="1200"
