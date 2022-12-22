@@ -7,9 +7,6 @@ import About from "../../about/About";
 import Service from "../../service/Service";
 import Portfolio from "../../portfolio/Portfolio";
 import Testimonial from "../../testimonial/Testimonial";
-import Blog from "../../blog/Blog";
-import dynamic from "next/dynamic";
-import FeedbackForm from "@components/FeedbackForm";
 import Contact from "../../Contact";
 import Address from "../../Address";
 import Map from "../../Map";
@@ -153,7 +150,6 @@ const EdinaHorizontal = () => {
               </div>
               {/* End title */}
               <div className="fields">
-                <FeedbackForm />              
                 <Contact />
               </div>
               {/* End Contact Form */}
