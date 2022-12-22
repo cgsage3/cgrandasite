@@ -30,17 +30,14 @@ const About = () => {
                 Hi, Im <span>Cesar Granda</span>
               </h3>
               <p>
-                Im a Freelancer Front-end Developer with over 6 years of
-                experience. Im from San Francisco. I code and create web
-                elements for amazing people around the world. I like work with
-                new people.
+                Im a Web and App Developer with 8+ years of experience in front-end and back-end development. 
+                I am Passionate about building excellent web elements utilizing innovative and cutting-edge solutions.
               </p>
             </div>
             <div className="my_skills">
               <h3 className="title">What is my skill level?</h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+                I code with various languages and frameworks depending on the project's need and vision. I also create graphics, visual styles and icons for an aesthetically pleasing end product.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">

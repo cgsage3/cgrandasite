@@ -2053,7 +2053,12 @@ body.modal {
 /*---------------------------------------------------*/
 /*	10) EDINA CONTACT
 /*---------------------------------------------------*/
-
+.contact_form label {
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;  
+}
 .edina_tm_contact {
   width: 100%;
   height: auto;

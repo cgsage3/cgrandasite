@@ -3,7 +3,7 @@ import styles from './FeedbackForm.module.css'
 export default function FeedbackForm() {
   return (
       <form
-        className={styles.form}
+        className="contact_form"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         name="feedback"
@@ -18,14 +18,16 @@ export default function FeedbackForm() {
         </p>
   
         <label htmlFor="name">Name</label>
-        <input id="name" className={styles['form-field']} type="text" name="name" />
+        <input id="name" className={styles['form-field']} type="text" name="name" placeholder="Name *"  />
 
         <label htmlFor="email">Email</label>
-        <input id="email" className={styles['form-field']} type="email" name="email" required />
+        <input id="email" className={styles['form-field']} type="email" name="email" placeholder="Email *" required />
 
-        <label htmlFor="feedback">What is your feedback?</label>
-        <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
-        <button className={styles.button} type="submit">Submit</button>
+        <label htmlFor="feedback">Message</label>
+        <textarea id="Message" className={styles['form-field']} wrap="soft" name="Message"placeholder="Message *"  required></textarea>
+        <div className="edina_tm_button">
+        <button className="color" type="submit">Submit</button>
+        </div>
       </form>
   )
 }

@@ -128,8 +128,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Contact</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              I am always looking to start on new projects. Don't hesitate to reach out if you have any questions.
             </p>
           </div>
           <div className="extra_info">
@@ -145,15 +144,14 @@ const EdinaHorizontal = () => {
             >
               <div className="title">
                 <p>
-                  I am always open to discussing product
+                  Fill out this form for
                   <br />
-                  <span> design work or partnerships.</span>
+                  <span> new projects or partnerships.</span>
                 </p>
               </div>
               {/* End title */}
               <div className="fields">
                 <FeedbackForm />              
-                <Contact />
               </div>
               {/* End Contact Form */}
             </div>
