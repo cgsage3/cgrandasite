@@ -5,7 +5,7 @@ const Seo = ({ pageTitle, font }) => (
     <Head>
       <title>
         {pageTitle &&
-          `${pageTitle} || Edina - Personal Portfolio React NextJS Template}`}
+          `${pageTitle} || Personal Resume Site}`}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
@@ -14,7 +14,7 @@ const Seo = ({ pageTitle, font }) => (
       />
       <meta
         name="description"
-        content="Edian - Personal Portfolio React NextJS Template"
+        content="Cesar Granda - Personal Resume Site"
       />
       <meta name="ibthemes" content="ATFN" />
       <meta
