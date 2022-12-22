@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/img/logo/dark.png";
-import logo2 from "../../public/img/logo/light.png";
+import logo from "../../public/img/logo/cg-logo.png";
+import logo2 from "../../public/img/logo/cg-logo-white.png";
 
 const HeaderMobile = () => {
   return (

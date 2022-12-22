@@ -464,6 +464,12 @@ body.dark .loader_line:after {
     // max-width: 100px;
   }
 }
+.sidebar_inner .logo img {
+  @media screen and (max-width: 1199px) {
+    height: 32px;
+  }
+}
+
 .edina_tm_sidebar .menu {
   width: 100%;
   height: auto;

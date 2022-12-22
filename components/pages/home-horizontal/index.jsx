@@ -8,6 +8,7 @@ import Service from "../../service/Service";
 import Portfolio from "../../portfolio/Portfolio";
 import Testimonial from "../../testimonial/Testimonial";
 import Blog from "../../blog/Blog";
+import FeedbackForm from "@components/FeedbackForm";
 import Contact from "../../Contact";
 import Address from "../../Address";
 import Map from "../../Map";
@@ -109,8 +110,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Testimonials</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              These are some of the people that I have had the pleasure to work alongside with and worked for.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -122,21 +122,6 @@ const EdinaHorizontal = () => {
         </div>
       </div>
       {/* End Testimonial */}
-
-      <div className="edina_tm_news" id="blog">
-        <div className="container">
-          <div className="edina_tm_title">
-            <h3>Blog</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
-          </div>
-          {/* End edian_tm_title */}
-          <Blog />
-        </div>
-      </div>
-      {/* End Blog */}
 
       <div className="edina_tm_contact" id="contact">
         <div className="container">
@@ -167,6 +152,7 @@ const EdinaHorizontal = () => {
               </div>
               {/* End title */}
               <div className="fields">
+                <FeedbackForm />              
                 <Contact />
               </div>
               {/* End Contact Form */}

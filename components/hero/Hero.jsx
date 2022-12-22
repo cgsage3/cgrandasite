@@ -9,7 +9,7 @@ const heroContent = {
   shapeImage: shapeImage,
   heroImage: heroImage,
   name: "Cesar Granda",
-  description: `I'm a Freelancer Front-end React Developer based In USA, over 6 years of
+  description: `I'm a Full Stack Developer based In USA, with over 8 years of
   professional experience.`,
 };
 
@@ -41,7 +41,7 @@ const Hero = () => {
                 loop
                 typeSpeed={150}
                 backSpeed={60}
-                strings={["Graphic Designer", "Web Developer"]}
+                strings={["Web Developer", "App Developer", "Graphic Designer", ]}
                 smartBackspace
                 shuffle={false}
                 backDelay={1}
@@ -76,7 +76,7 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <a href="img/sample.pdf" download className="color">
+            <a href="img/CG-Resume-2022.pdf" download className="color">
               Download CV
             </a>
           </div>

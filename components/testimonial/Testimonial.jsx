@@ -39,7 +39,7 @@ export default function Testimonial() {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: `url(img/testimonials/${val.img}.jpg)`,
+                      backgroundImage: `url(img/testimonials/testimonial-${val.img}.jpg)`,
                     }}
                   ></div>
                 </div>

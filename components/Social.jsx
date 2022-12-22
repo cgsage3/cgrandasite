@@ -8,16 +8,7 @@ import {
 } from "react-icons/fi";
 
 const SocialShare = [
-  {
-    iconName: <FiFacebook />,
-    link: "https://www.facebook.com/",
-  },
   { iconName: <FiTwitter />, link: "https://twitter.com/" },
-  {
-    iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
-  },
-  { iconName: <FiDribbble />, link: "https://dribbble.com/" },
   {
     iconName: <FiLinkedin />,
     link: "https://www.linkedin.com/feed/",

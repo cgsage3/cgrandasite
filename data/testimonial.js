@@ -1,23 +1,23 @@
 module.exports = [
   {
     img: "1",
-    desc: `Hi, I’m Alvara Atkins and I am designer &amp; developer who dream making the world better place by products. I am also very active for international clients.`,
-    name: "Alvara Atkins",
-    designation: "Marketing Manager",
+    desc: `It was a pleasure working with Cesar on various web apps together. He is very professional and has an extrodinary ability to find solutions to complex coding problems.`,
+    name: "Adam Rosseau",
+    designation: "App Developer",
     delayAnimation: "",
   },
   {
     img: "2",
-    desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
-    name: "Fabian Gattuzo",
-    designation: "Photographer",
+    desc: `I have worked with Cesar over many years and he has created numerous web apps for my business all within the timeframes I set. He is very punctual and efficient with his time.`,
+    name: "Ed Hong",
+    designation: "Senior Developer",
     delayAnimation: "100",
   },
   {
     img: "3",
-    desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
-    name: "Alizee Bonita",
-    designation: "App Developer",
+    desc: `I loved the site that Cesar did for my organization. He gave me what I wanted and more. He really knew what he was doing and provided the best solution that my organization required.`,
+    name: "Jeffrey Hardy",
+    designation: "Web Developer",
     delayAnimation: "200",
   },
 ];

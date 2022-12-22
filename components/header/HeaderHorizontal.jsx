@@ -8,9 +8,9 @@ import logo2 from "../../public/img/logo/cg-logo-white.png";
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
-  name: "Nelson",
-  email: "support@gmail.com",
-  emailRef: "mailto:ib-themes21@gmail.com",
+  name: "Cesar",
+  email: "cezart27@gmail.com",
+  emailRef: "mailto:cezart27@gmail.com",
 };
 
 const HeaderHorizontal = () => {
@@ -61,10 +61,8 @@ const HeaderHorizontal = () => {
               scrollTargetIds={[
                 "home",
                 "about",
-                "service",
                 "portfolio",
                 "testimonial",
-                "blog",
                 "contact",
               ]}
               activeNavClass="active"
