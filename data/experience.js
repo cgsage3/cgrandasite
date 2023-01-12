@@ -14,7 +14,7 @@ module.exports = [
   {
     year: "2014 - 2016",
     position: "Junior Web Developer",
-    compnayName: "Team 7 Media Inc",
+    compnayName: "One Shot Marketing LLC",
     details: `Was in charge of leading projects such as WordPress sites, E-Stores, Landing pages and CRM integration`,
   },
 ];
