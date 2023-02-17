@@ -129,10 +129,10 @@ const Portfolio = () => {
                       <span>{singleData?.category}</span>
                     </li>
                     {/* End list */}
-                    <li>
+{/*                    <li>
                       <h5>Data</h5>
                       <span>{singleData?.date}</span>
-                    </li>
+                    </li>*/}
                     {/* End list */}
                     <li>
                       <h5>Link</h5>
@@ -147,10 +147,10 @@ const Portfolio = () => {
                       </span>
                     </li>
                     {/* End list */}
-                    <li className="news_share d-blok">
+{/*                    <li className="news_share d-blok">
                       <h5>Share</h5>
                       <Social />
-                    </li>
+                    </li>*/}
                     {/* End list */}
                   </ul>
                 </div>

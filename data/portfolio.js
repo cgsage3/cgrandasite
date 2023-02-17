@@ -3,88 +3,88 @@ module.exports = [
     id: 1,
     tooltipId: "product",
     portfolioImage: "img/portfolio/library-lg.jpg",
-    portfolioLink: "https://www.behance.net/ib-themes",
-    title: "Behance Profile",
-    meta: "Product",
-    clientName: "Alvaro Morata",
-    category: "Behance Shoot",
+    portfolioLink: "https://library.baruch.cuny.edu/",
+    title: "Baruch Library",
+    meta: "Higher Learning",
+    clientName: "Baruch University",
+    category: "university",
     date: "October 22, 2022",
-    projectDescriptions: (
-      <>
-        <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
-        </p>
+    // projectDescriptions: (
+    //   <>
+    //     <p>
+    //       We live in a world where we need to move quickly and iterate on our
+    //       ideas as flexibly as possible. Building mockups strikes the ideal
+    //       balance between true-life representation of the end product and ease
+    //       of modification.
+    //     </p>
 
-        <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
-        </p>
-      </>
-    ),
+    //     <p>
+    //       Mockups are useful both for the creative phase of the project - for
+    //       instance when you&lsquo;re trying to figure out your user flows or the
+    //       proper visual hierarchy - and the production phase when they will
+    //       represent the target product. Making mockups a part of your creative
+    //       and development process allows you to quickly and easily ideate.
+    //     </p>
+    //   </>
+    // ),
   },
   {
     id: 2,
-    tooltipId: "dribbble",
+    tooltipId: "Jonin Media",
     portfolioImage: "img/portfolio/jonin-lg.jpg",
-    portfolioLink: "https://dribbble.com/ib-themes",
-    title: "Dribbble Shot",
-    meta: "Dribbble",
-    clientName: "Alvaro Morata",
-    category: "Dribbble Shoot",
+    portfolioLink: "",
+    title: "Jonin Media",
+    meta: "Marketing",
+    clientName: "Ed Hong",
+    category: "Marketing",
     date: "October 22, 2022",
-    projectDescriptions: (
-      <>
-        <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
-        </p>
+    // projectDescriptions: (
+    //   <>
+    //     <p>
+    //       We live in a world where we need to move quickly and iterate on our
+    //       ideas as flexibly as possible. Building mockups strikes the ideal
+    //       balance between true-life representation of the end product and ease
+    //       of modification.
+    //     </p>
 
-        <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
-        </p>
-      </>
-    ),
+    //     <p>
+    //       Mockups are useful both for the creative phase of the project - for
+    //       instance when you&lsquo;re trying to figure out your user flows or the
+    //       proper visual hierarchy - and the production phase when they will
+    //       represent the target product. Making mockups a part of your creative
+    //       and development process allows you to quickly and easily ideate.
+    //     </p>
+    //   </>
+    // ),
   },
   {
     id: 3,
-    tooltipId: "facebook",
+    tooltipId: "Edison Solutions",
     portfolioImage: "img/portfolio/solutions-lg.jpg",
-    portfolioLink: "https://www.facebook.com/",
-    title: "Facebook Shot",
-    meta: "Facebook",
-    clientName: "Alvaro Morata",
-    category: "Facebook Shoot",
+    portfolioLink: "",
+    title: "Edison Solutions",
+    meta: "Edison Solutions",
+    clientName: "Edison Mendez",
+    category: "Small Business",
     date: "October 22, 2022",
-    projectDescriptions: (
-      <>
-        <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
-        </p>
+    // projectDescriptions: (
+    //   <>
+    //     <p>
+    //       We live in a world where we need to move quickly and iterate on our
+    //       ideas as flexibly as possible. Building mockups strikes the ideal
+    //       balance between true-life representation of the end product and ease
+    //       of modification.
+    //     </p>
 
-        <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
-        </p>
-      </>
-    ),
+    //     <p>
+    //       Mockups are useful both for the creative phase of the project - for
+    //       instance when you&lsquo;re trying to figure out your user flows or the
+    //       proper visual hierarchy - and the production phase when they will
+    //       represent the target product. Making mockups a part of your creative
+    //       and development process allows you to quickly and easily ideate.
+    //     </p>
+    //   </>
+    // ),
   },
   {
     id: 4,

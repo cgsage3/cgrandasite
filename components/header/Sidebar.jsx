@@ -46,7 +46,7 @@ const Sidebar = () => {
               scrollTargetIds={[
                 "home",
                 "about",
-                "service",
+                // "service",
                 "portfolio",
                 "testimonial",
                 "blog",

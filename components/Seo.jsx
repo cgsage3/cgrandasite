@@ -21,8 +21,9 @@ const Seo = ({ pageTitle, font }) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-
-      {font && <link href={font} rel="stylesheet" />}
+      <style>
+        {font && `@import url(${font})`}
+      </style>
       <link rel="icon" href="favicon.ico" />
     </Head>
   </>

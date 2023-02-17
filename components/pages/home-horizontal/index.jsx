@@ -75,19 +75,18 @@ const EdinaHorizontal = () => {
       <About />
       {/* End Hero */}
 
-      <div className="edina_tm_services" id="service">
+{/*      <div className="edina_tm_services" id="service">
         <div className="container">
           <div className="edina_tm_title">
             <h3>What I Do</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              These are some of the services I offer. For additional services please get in touch with me.
             </p>
           </div>
-          {/* End edian_tm_title */}
+          {/* End edian_tm_title 
           <Service />
         </div>
-      </div>
+      </div>*/}
       {/* End Services */}
 
       <div className="edina_tm_portfolio" id="portfolio">
@@ -95,8 +94,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              These are some of the projects I have been involved with.
             </p>
           </div>
           {/* End edian_tm_title */}

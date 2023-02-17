@@ -2,7 +2,7 @@ import experienceContent from "../../data/experience";
 
 const Experience = () => {
   return (
-    <ul>
+    <ul class="resumeall">
       {experienceContent.map((val, i) => (
         <li key={i}>
           <div className="icon">
@@ -14,7 +14,13 @@ const Experience = () => {
             {val.position}
             <span className="place open-sans-font">{val.compnayName}</span>
           </h5>
-          <p className="open-sans-font">{val.details}</p>
+          <ul class="experience">
+            {Object.keys(val.details).map((list, i) => (
+                <li key={i}>
+                    {val.details[list]}
+                </li>
+            ))} 
+          </ul>         
         </li>
       ))}
     </ul>
