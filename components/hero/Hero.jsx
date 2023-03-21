@@ -9,7 +9,7 @@ const heroContent = {
   shapeImage: shapeImage,
   heroImage: heroImage,
   name: "Cesar Granda",
-  description: `I'm a Full Stack Developer based In USA, with over 8 years of
+  description: `I'm a Front-end Developer based In USA, with over 8 years of
   professional experience.`,
 };
 
@@ -41,7 +41,7 @@ const Hero = () => {
                 loop
                 typeSpeed={150}
                 backSpeed={60}
-                strings={["Web Developer", "App Developer", "Graphic Designer", ]}
+                strings={["Front-end Developer", "App Developer", "Web Developer", "Graphic Designer", ]}
                 smartBackspace
                 shuffle={false}
                 backDelay={1}
