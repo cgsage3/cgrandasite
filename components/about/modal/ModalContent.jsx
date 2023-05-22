@@ -12,8 +12,8 @@ const ModalContent = () => {
           <h3>Personal Info</h3>
           <PersonalInfo />
           <div className="edina_tm_button">
-            <a href="img/CG-Resume-2022.pdf" download className="color">
-              Download CV
+            <a href="img/CG-Resume-2023.pdf" download className="color">
+              Download Resume
             </a>
           </div>
         </div>

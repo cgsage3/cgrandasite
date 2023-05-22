@@ -76,8 +76,8 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <a href="img/CG-Resume-2022.pdf" download className="color">
-              Download CV
+            <a href="img/CG-Resume-2023.pdf" download className="color">
+              Download Resume
             </a>
           </div>
         </div>
