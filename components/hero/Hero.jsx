@@ -41,7 +41,7 @@ const Hero = () => {
                 loop
                 typeSpeed={150}
                 backSpeed={60}
-                strings={["Front-end Developer", "App Developer", "Web Developer", "Graphic Designer", ]}
+                strings={["Senior Developer","Front-end Developer", "App Developer", "Web Developer", "Graphic Designer", ]}
                 smartBackspace
                 shuffle={false}
                 backDelay={1}
