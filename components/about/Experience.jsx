@@ -1,6 +1,12 @@
-import experienceContent from "../../data/experience";
+// import experienceContent from "../../data/experience";
 import { useState, useEffect } from 'react';
-function ExperienceDb() {
+
+function split(v){
+    var x = v[0].split('./').filter(r => r !== '')
+    console.log(x)
+    return x
+}
+const Experience = () => {
 const [name, setName] = useState([]);
 useEffect(()=> {
     experienceMDB()
@@ -11,17 +17,11 @@ const experienceMDB = async () => {
 
     setName(await response.json())
 }
-console.log(name);
-function split(v){
-    var x = v[0].split('./').filter(r => r !== '')
-    console.log(x)
-    return x
-}
-const Experience = () => {
+console.log(name);  
   return (
     <ul class="resumeall">
-      {name.map((val, i) => (
-        <li key={i}>
+      {name.map((val) => (
+        <li key={val._id}>
           <div className="icon">
             <img src="img/about/briefcase.png" alt="icon" />
             <i className="fa fa-briefcase"></i>
@@ -32,11 +32,11 @@ const Experience = () => {
             <span className="place open-sans-font">{val.compnayName}</span>
           </h5>
           <ul class="experience">
-            {split(val.details).map((list, i) => (
-                <li key={i}>
-                    {val.details[list]}
-                </li>
-            ))} 
+            {split(val.details).map((data) => {
+              return (
+                <li key={data._id}>{data}.</li>
+              )
+            })}
           </ul>         
         </li>
       ))}
