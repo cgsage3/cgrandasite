@@ -12,7 +12,7 @@ const ModalContent = () => {
           <h3>Personal Info</h3>
           <PersonalInfo />
           <div className="edina_tm_button">
-            <a href="https://web-based-reume-front.onrender.com/resume.pdf" download className="color">
+            <a href="https://resume-mern.onrender.com/resume.pdf" download className="color">
               Download Resume
             </a>
           </div>

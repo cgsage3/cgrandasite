@@ -76,7 +76,7 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <a href="https://web-based-reume-front.onrender.com/resume.pdf" download className="color">
+            <a href="https://resume-mern.onrender.com/resume.pdf" download className="color">
               Download Resume
             </a>
           </div>
