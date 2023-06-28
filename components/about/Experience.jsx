@@ -29,7 +29,7 @@ console.log(name);
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">
             {val.position}
-            <span className="place open-sans-font">{val.compnayName}</span>
+            <span className="place open-sans-font">{val.companyName}</span>
           </h5>
           <ul class="experience">
             {split(val.details).map((data) => {
