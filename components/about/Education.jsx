@@ -2,17 +2,15 @@
 import { useState, useEffect } from 'react';
 
 const Education = () => {
-  function EducationDb() {
-      const [edu, setEdu] = useState([]);
-      useEffect(()=> {
-        eduMDB()
-      }, [])
+  const [edu, setEdu] = useState([]);
+  useEffect(()=> {
+    eduMDB()
+  }, [])
 
-      const eduMDB = async () => {
-          const response = await fetch('https://resume-mern.onrender.com/fetch-edu');
-
-          setEdu(await response.json())
-      }
+  const eduMDB = async () => {
+    const response = await fetch('https://resume-mern.onrender.com/fetch-edu');
+    setEdu(await response.json())
+  }
   function compare( a, b ) {
     if ( a.year < b.year ){
       return 1;

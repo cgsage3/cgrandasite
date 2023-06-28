@@ -7,17 +7,17 @@ function split(v){
     return x
 }
 const Experience = () => {
-const [name, setName] = useState([]);
-useEffect(()=> {
-    experienceMDB()
-}, [])
+  const [name, setName] = useState([]);
+  useEffect(()=> {
+      experienceMDB()
+  }, [])
 
-const experienceMDB = async () => {
-    const response = await fetch('https://resume-mern.onrender.com/xp');
+  const experienceMDB = async () => {
+      const response = await fetch('https://resume-mern.onrender.com/xp');
 
-    setName(await response.json())
-}
-console.log(name);  
+      setName(await response.json())
+  }
+  console.log(name);  
   return (
     <ul class="resumeall">
       {name.map((val) => (
