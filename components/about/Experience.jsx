@@ -6,21 +6,28 @@ function split(v){
     console.log(x)
     return x
 }
+function compare (a, b) {
+  const yearA = parseInt(a.year, 10);// convert string to integer
+  const yearB = parseInt(b.year, 10);// convert string to integer
+  // console.log(yearA);
+  return yearB - yearA;// compare
+}
 const Experience = () => {
-  const [name, setName] = useState([]);
+  const [data, setData] = useState([]);
   useEffect(()=> {
       experienceMDB()
   }, [])
 
   const experienceMDB = async () => {
-      const response = await fetch('https://resume-mern.onrender.com/xp');
+      const response = await fetch('https://cover-letter-mern-back.onrender.com/api/v1/experience');
 
-      setName(await response.json())
+      setData(await response.json())
   }
-  console.log(name);  
+
+  console.log(data?.data?.docs);  
   return (
     <ul class="resumeall">
-      {name.map((val) => (
+      {data?.data?.docs.slice().sort(compare).map((val) => (
         <li key={val._id}>
           <div className="icon">
             <img src="img/about/briefcase.png" alt="icon" />
@@ -32,7 +39,7 @@ const Experience = () => {
             <span className="place open-sans-font">{val.companyName}</span>
           </h5>
           <ul class="experience">
-            {split(val.details).map((data) => {
+            {val.details.map((data) => {
               return (
                 <li key={data._id}>{data}.</li>
               )
